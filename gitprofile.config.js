@@ -177,7 +177,7 @@ const config = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/hasanshahriar32/profile"
+      class="text-primary" href="https://hasanshahriar32.github.io"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
