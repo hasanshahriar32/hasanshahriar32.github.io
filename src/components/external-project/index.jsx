@@ -146,6 +146,18 @@ const ExternalProject = ({ externalProjects, loading, googleAnalytics }) => {
                         </span>
                       )}
                     </h5>
+                    {loading ? (
+                      skeleton({ width: 'w-10', height: 'h-5' })
+                    ) : (
+                      <a
+                        href={`https://loking.notion.site/Shahriar-s-Projects-f1794e19ea9b4705ba4fd0b0df54d4d0`}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-base-content opacity-50 hover:underline"
+                      >
+                        See All
+                      </a>
+                    )}
                   </div>
                   <div className="col-span-2">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

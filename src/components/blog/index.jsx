@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import { AiOutlineContainer } from 'react-icons/ai';
 import { getDevPost, getMediumPost } from '@arifszn/blog-js';
 import { formatDistance } from 'date-fns';
+import { Helmet } from 'react-helmet-async';
 
 const displaySection = (blog) => {
   if (blog?.source && blog?.username) {
@@ -205,6 +206,59 @@ const Blog = ({ loading, blog, googleAnalytics }) => {
                         ? renderSkeleton()
                         : renderArticles()}
                     </div>
+                    <div
+                      data-tf-popover="voGhUtBB"
+                      data-tf-custom-icon="https://images.typeform.com/images/PU4KfKPLBXfm"
+                      data-tf-opacity="100"
+                      data-tf-hide-headers
+                      data-tf-iframe-props="title=Portfolio Review"
+                      data-tf-transitive-search-params
+                      data-tf-button-color="#0A0A0A"
+                      data-tf-notification-days="7"
+                      data-tf-medium="snippet"
+                      // style="all:unset;"
+                    ></div>
+                    <script src="//embed.typeform.com/next/embed.js"></script>
+                    <section>
+                      {/* <!-- Messenger Chat plugin Code --> */}
+                      <div id="fb-root"></div>
+
+                      {/* <!-- Your Chat plugin code --> */}
+                      <div
+                        id="fb-customer-chat"
+                        className="fb-customerchat"
+                      ></div>
+
+                      <Helmet>
+                        <script>
+                          {`
+            var chatbox = document.getElementById('fb-customer-chat');
+            chatbox.setAttribute("page_id", "103296525886048");
+            chatbox.setAttribute("attribution", "biz_inbox");
+          `}
+                        </script>
+
+                        {/* <!-- Your SDK code --> */}
+                        <script>
+                          {`
+            window.fbAsyncInit = function() {
+              FB.init({
+                xfbml: true,
+                version: 'v16.0'
+              });
+            };
+
+            (function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+          `}
+                        </script>
+                      </Helmet>
+                    </section>
                   </div>
                 </div>
               </div>
