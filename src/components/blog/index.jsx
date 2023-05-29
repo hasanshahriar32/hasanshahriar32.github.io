@@ -208,7 +208,7 @@ const Blog = ({ loading, blog, googleAnalytics }) => {
                     </div>
                     <div
                       data-tf-popover="voGhUtBB"
-                      data-tf-custom-icon="https://images.typeform.com/images/PU4KfKPLBXfm"
+                      // data-tf-custom-icon="https://images.typeform.com/images/PU4KfKPLBXfm"
                       data-tf-opacity="100"
                       data-tf-hide-headers
                       data-tf-iframe-props="title=Portfolio Review"
