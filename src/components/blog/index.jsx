@@ -218,7 +218,10 @@ const Blog = ({ loading, blog, googleAnalytics }) => {
                       data-tf-medium="snippet"
                       // style="all:unset;"
                     ></div>
-                    <script src="//embed.typeform.com/next/embed.js"></script>
+                    <Helmet>
+                      <script src="//embed.typeform.com/next/embed.js"></script>
+                    </Helmet>
+
                     <section>
                       {/* <!-- Messenger Chat plugin Code --> */}
                       <div id="fb-root"></div>
