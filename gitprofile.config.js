@@ -16,6 +16,7 @@ const config = {
     mastodon: '',
     facebook: 'H4549',
     instagram: '',
+    youtube: '',
     dribbble: '',
     behance: '',
     medium: 'hasanshahriar32',
@@ -108,11 +109,11 @@ const config = {
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: 'G-TFSG34KC7P', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
-    id: '',
+    id: '3635888',
     snippetVersion: 6,
   },
   themeConfig: {
