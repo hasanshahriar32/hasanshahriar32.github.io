@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'hasanshahriar32', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,103 +11,100 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    facebook: '',
+    linkedin: 'hasanshahriar32',
+    twitter: '',
+    mastodon: '',
+    facebook: 'H4549',
     instagram: '',
-    youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    medium: 'hasanshahriar32',
+    dev: 'hasanshahriar32',
+    stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: 'https://shahriarhasan.vercel.app',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'hasanshahriar32@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/u/0/uc?id=1VSePszTL6TGlv42imknUZoSeYnKnOayw&export=download', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
     'JavaScript',
     'React.js',
     'Node.js',
     'Nest.js',
-    'MySQL',
+    'MongoDB',
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
+    'JavaScript',
     'CSS',
-    'Antd',
+    'TypeScript',
     'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'SJ Innovation',
+      position: 'Front End Developer',
+      from: 'May 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.sjinnovation.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: '3W Business Private LTD',
+      position: 'Front End Developer',
+      from: 'February 2023',
+      to: 'February 2023',
+      companyLink: 'https://in.linkedin.com/company/triplewsols',
     },
   ],
-  /* certifications: [
+  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
+      name: 'Full Stack Development',
+      body: 'MERN Stack development with TypeScript, Next JS, Docker, AWS.',
       year: 'March 2022',
-      link: 'https://example.com'
+      link: 'https://i.ibb.co/QPPmbLt/9639fae0-0770-474d-b083-bd872a33e65c.jpg?auto=compress&cs=tinysrgb&w=1200'
     },
-  ], */
+  ], 
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Hajee Mohammad Danesh Science and Technology University. Dinajpur, Bangladesh.',
+      degree: 'B.Sc Engg. in ECE',
+      from: '2020',
+      to: 'Present',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
+      institution: 'Saidpur Govt. Technical College.',
+      degree: 'HSC & SSC',
       from: '2012',
-      to: '2014',
+      to: '2019',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'devHive',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Local freelancing marketplace. Easy sharing and getting services. Local payment method with sslCommerz. Realtime chatting feature with socket.io.',
+      imageUrl: 'https://shahriarhasan.vercel.app/screenshot%20(5).png',
+      link: 'https://devhiveclient.vercel.app/',
     },
     {
-      title: 'Project Name',
+      title: 'Paradox Pet Shop',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'If you own a pet, you’re probably a regular at your local pet shop. Whether you need more food, treats, or supplies for your furry friend. However, when you’re quickly running in and out of your neare...',
+      imageUrl: 'https://shahriarhasan.vercel.app/screenshot%20(6).png',
+      link: 'https://paradox-services.web.app/',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: 'hasanshahriar32', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
@@ -119,7 +116,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'night',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -180,7 +177,7 @@ const config = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://hasanshahriar32.github.io"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
