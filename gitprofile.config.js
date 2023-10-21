@@ -47,11 +47,19 @@ const config = {
     'Tailwind',
   ],
   experiences: [
+    
+    {
+      company: 'Bangladeshi Software',
+      position: 'Full-stack Developer',
+      from: 'October 2023',
+      to: 'Present',
+      companyLink: 'https://www.bangladeshisoftware.com',
+    },
     {
       company: 'SJ Innovation',
       position: 'Front End Developer',
       from: 'May 2023',
-      to: 'Present',
+      to: 'July 2023',
       companyLink: 'https://www.sjinnovation.com',
     },
     {
@@ -60,13 +68,6 @@ const config = {
       from: 'February 2023',
       to: 'February 2023',
       companyLink: 'https://in.linkedin.com/company/triplewsols',
-    },
-    {
-      company: 'Bangladeshi Software',
-      position: 'Full-stack Developer',
-      from: 'October 2023',
-      to: 'Present',
-      companyLink: 'https://www.bangladeshisoftware.com',
     },
   ],
   certifications: [
