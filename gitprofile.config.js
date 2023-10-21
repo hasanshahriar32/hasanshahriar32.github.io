@@ -61,6 +61,13 @@ const config = {
       to: 'February 2023',
       companyLink: 'https://in.linkedin.com/company/triplewsols',
     },
+    {
+      company: 'Bangladeshi Software',
+      position: 'Full-stack Developer',
+      from: 'October 2023',
+      to: 'Present',
+      companyLink: 'https://www.bangladeshisoftware.com',
+    },
   ],
   certifications: [
     {
@@ -93,6 +100,20 @@ const config = {
         'Local freelancing marketplace. Easy sharing and getting services. Local payment method with sslCommerz. Realtime chatting feature with socket.io.',
       imageUrl: 'https://shahriarhasan.vercel.app/screenshot%20(5).png',
       link: 'https://devhiveclient.vercel.app/',
+    },
+    {
+      title: 'Neuronex AI',
+      description:
+        'AI powered application. Purpose: to help educators and students as a personal study assistant. OpenAi integrated. Finetune model integration with custom-trained data.',
+      imageUrl: 'https://i.ibb.co/yPMyQRj/Screenshot-2023-07-22-130559.png',
+      link: 'https://hstu-ai.vercel.app/',
+    },
+    {
+      title: 'Mess Management',
+      description:
+        'Mess Management application to help the bachelors manage daily chores, monthly rent and meal calculation, fixing shopping date for boarders etc. and many more.',
+      imageUrl: 'https://i.ibb.co/5FVDXQ0/Screenshot-269.png',
+      link: 'https://inn.vercel.app',
     },
     {
       title: 'Paradox Pet Shop',
